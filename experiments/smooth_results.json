@@ -1,0 +1,30 @@
+[
+  {
+    "topology": "none",
+    "final_loss": 0.04031,
+    "best_loss": 0.035259,
+    "diameter": "N/A",
+    "time": 2
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.070865,
+    "best_loss": 0.066272,
+    "diameter": 16,
+    "time": 2
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.025929,
+    "best_loss": 0.023842,
+    "diameter": 5,
+    "time": 2
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.092577,
+    "best_loss": 0.089705,
+    "diameter": 1,
+    "time": 2
+  }
+]

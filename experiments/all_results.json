@@ -1,0 +1,602 @@
+[
+  {
+    "topology": "none",
+    "final_loss": 0.035749,
+    "best_loss": 0.031038,
+    "diameter": "N/A",
+    "time": 3,
+    "N": 64,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.059294,
+    "best_loss": 0.055631,
+    "diameter": 16,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.025295,
+    "best_loss": 0.022306,
+    "diameter": 5,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.064789,
+    "best_loss": 0.060071,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.033995,
+    "best_loss": 0.030242,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.037378,
+    "best_loss": 0.032651,
+    "diameter": 16,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.022745,
+    "best_loss": 0.018781,
+    "diameter": 5,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.06182,
+    "best_loss": 0.055513,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.05067,
+    "best_loss": 0.045615,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.057349,
+    "best_loss": 0.052479,
+    "diameter": 16,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.026108,
+    "best_loss": 0.023339,
+    "diameter": 5,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.056525,
+    "best_loss": 0.051095,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.062841,
+    "best_loss": 0.057309,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.104306,
+    "best_loss": 0.098889,
+    "diameter": 32,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.071268,
+    "best_loss": 0.068356,
+    "diameter": 7,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.113184,
+    "best_loss": 0.104499,
+    "diameter": 1,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.063123,
+    "best_loss": 0.057147,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.129809,
+    "best_loss": 0.11849,
+    "diameter": 32,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.085281,
+    "best_loss": 0.078806,
+    "diameter": 7,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.128407,
+    "best_loss": 0.120072,
+    "diameter": 1,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.085179,
+    "best_loss": 0.078288,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.145372,
+    "best_loss": 0.134802,
+    "diameter": 32,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.069435,
+    "best_loss": 0.065768,
+    "diameter": 7,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.190438,
+    "best_loss": 0.175796,
+    "diameter": 1,
+    "time": 2,
+    "N": 128,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.143199,
+    "best_loss": 0.135363,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.245275,
+    "best_loss": 0.237222,
+    "diameter": 64,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.175567,
+    "best_loss": 0.170384,
+    "diameter": 7,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.273529,
+    "best_loss": 0.264758,
+    "diameter": 1,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 42
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.1607,
+    "best_loss": 0.149349,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.260494,
+    "best_loss": 0.249199,
+    "diameter": 64,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.149946,
+    "best_loss": 0.14381,
+    "diameter": 7,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.329746,
+    "best_loss": 0.311017,
+    "diameter": 1,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 123
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.147928,
+    "best_loss": 0.138687,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.217072,
+    "best_loss": 0.208413,
+    "diameter": 64,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.153966,
+    "best_loss": 0.148274,
+    "diameter": 7,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.273848,
+    "best_loss": 0.263333,
+    "diameter": 1,
+    "time": 2,
+    "N": 256,
+    "degree": 4,
+    "seed": 456
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.003794,
+    "best_loss": 0.00376,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 42
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.003915,
+    "best_loss": 0.003907,
+    "diameter": 11,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 42
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.002991,
+    "best_loss": 0.002905,
+    "diameter": 4,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 42
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.003972,
+    "best_loss": 0.003968,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 42
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.002324,
+    "best_loss": 0.002157,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 123
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.003769,
+    "best_loss": 0.003739,
+    "diameter": 11,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 123
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.002739,
+    "best_loss": 0.00261,
+    "diameter": 4,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 123
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.003916,
+    "best_loss": 0.003902,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 123
+  },
+  {
+    "topology": "none",
+    "final_loss": 0.003622,
+    "best_loss": 0.003553,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 456
+  },
+  {
+    "topology": "ring",
+    "final_loss": 0.003762,
+    "best_loss": 0.003736,
+    "diameter": 11,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 456
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 0.003036,
+    "best_loss": 0.002915,
+    "diameter": 4,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 456
+  },
+  {
+    "topology": "dense",
+    "final_loss": 0.003864,
+    "best_loss": 0.00385,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 6,
+    "seed": 456
+  },
+  {
+    "topology": "none",
+    "final_loss": 7.4e-05,
+    "best_loss": 7.1e-05,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 42
+  },
+  {
+    "topology": "ring",
+    "final_loss": 4.3e-05,
+    "best_loss": 4.1e-05,
+    "diameter": 8,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 42
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 5e-05,
+    "best_loss": 4.8e-05,
+    "diameter": 3,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 42
+  },
+  {
+    "topology": "dense",
+    "final_loss": 4.5e-05,
+    "best_loss": 4.2e-05,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 42
+  },
+  {
+    "topology": "none",
+    "final_loss": 7.4e-05,
+    "best_loss": 6.9e-05,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 123
+  },
+  {
+    "topology": "ring",
+    "final_loss": 2.2e-05,
+    "best_loss": 2.2e-05,
+    "diameter": 8,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 123
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 2.5e-05,
+    "best_loss": 2.4e-05,
+    "diameter": 3,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 123
+  },
+  {
+    "topology": "dense",
+    "final_loss": 1.9e-05,
+    "best_loss": 1.9e-05,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 123
+  },
+  {
+    "topology": "none",
+    "final_loss": 7.1e-05,
+    "best_loss": 6.7e-05,
+    "diameter": "N/A",
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 456
+  },
+  {
+    "topology": "ring",
+    "final_loss": 4.3e-05,
+    "best_loss": 4.1e-05,
+    "diameter": 8,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 456
+  },
+  {
+    "topology": "random_regular",
+    "final_loss": 4.7e-05,
+    "best_loss": 4.5e-05,
+    "diameter": 3,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 456
+  },
+  {
+    "topology": "dense",
+    "final_loss": 3.9e-05,
+    "best_loss": 3.7e-05,
+    "diameter": 1,
+    "time": 2,
+    "N": 64,
+    "degree": 8,
+    "seed": 456
+  }
+]
