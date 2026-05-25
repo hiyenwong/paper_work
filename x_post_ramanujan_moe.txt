@@ -1,17 +1,20 @@
-Just dropped RamanujanMoE-Topo 🚀
+I've been thinking about how MoE layers handle expert interaction. Current practice: each expert routes tokens independently, but there's no structure for experts to exchange information. As model scale hits thousands of experts, this creates a communication bottleneck.
 
-MoE layers scale but experts become information islands. What if their interaction graph was provably optimal?
+A natural question: what's the theoretically optimal sparse graph for connecting N experts under a fixed degree d?
 
-Ramanujan graphs are expanders with the best spectral gap: λ ≤ 2√(d-1).
+Enter Ramanujan graphs — expanders with the best possible spectral gap:
 
-Three theorems:
-1️⃣ Any d-sparse expert graph needs Ω(log_d N) rounds for global information propagation (lower bound)
-2️⃣ d-regular Ramanujan graphs achieve O(log N) mixing time — near-optimal by Theorem 1
-3️⃣ For MoE with d expert interactions per layer, Ramanujan topology provides a near-optimal propagation schedule
+λ ≤ 2√(d-1)
 
-This is a topology design — not a gating mechanism, not a training acceleration claim. The theory is now solid.
+They achieve provably near-optimal information mixing:
 
-CN/EN bilingual + verified code:
+1. Any d-sparse expert graph has a Ω(log_d N) lower bound for global information propagation.
+2. Ramanujan graphs hit O(log N) mixing time — essentially optimal.
+3. For MoE layers constrained to d interactions per expert, this gives a near-optimal propagation schedule.
+
+This is a *topology design*, not a training acceleration. The contribution is structural: a provably efficient expert interaction backbone.
+
+Full paper (CN/EN) + verified spectral code:
 github.com/hiyenwong/paper_work
 
-#MachineLearning #MoE #Ramanujan #GraphTheory #SparseNetworks #Theory #LLM
+#MoE #Ramanujan #GraphTheory #LLM #SparseNetworks #MachineLearning #Theory
