@@ -117,11 +117,9 @@ def build_ramanujan_like_graph(N: int, d: int) -> nx.Graph:
     
     For N with suitable structure, this produces a graph with
     λ₂ ≤ 2√(d-1) + o(1). Falls back to random regular graph otherwise.
+    Note: for d ≤ 2, the graph may be disconnected. d ≥ 3 recommended.
     """
-    # Attempt LPS-like construction for suitable N and d
-    # (full LPS requires p ≡ 1 mod 4, N = p(p²-1)/2, d = p+1)
-    # For general N, use random regular graph which has λ₂ ≈ 2√(d-1) whp
-    
+    assert d >= 3, "d must be >= 3 for connectivity and expander properties"
     G = nx.random_regular_graph(d, N, seed=42)
     return G
 
