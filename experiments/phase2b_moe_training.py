@@ -418,11 +418,11 @@ def main():
     print("=" * 80)
     
     # Configuration
-    NB_EXPERTS = 8
-    TOP_K = 2
-    EXPERT_DEGREE = 4  # ring requires even degree
-    NUM_STEPS = 300
-    DIM = 64
+    NB_EXPERTS = 64
+    TOP_K = 4       # top-4 for larger expert pool
+    EXPERT_DEGREE = 4
+    NUM_STEPS = 200
+    DIM = 32        # reduce dim to keep computation feasible
     N_HEADS = 4
     
     print(f"\nConfiguration:")
