@@ -2,17 +2,17 @@ I've been thinking about how MoE layers handle expert interaction. Current pract
 
 A natural question: what's the theoretically optimal sparse graph for connecting N experts under a fixed degree d?
 
-Enter Ramanujan graphs — expanders with the best possible spectral gap:
+Enter Ramanujan graphs -- expanders with the best possible spectral gap:
 
-λ ≤ 2√(d-1)
+lambda <= 2 sqrt(d-1)
 
 They achieve provably near-optimal information mixing:
 
-1. Any d-sparse expert graph has a Ω(log_d N) lower bound for global information propagation.
-2. Ramanujan graphs hit O(log N) mixing time — essentially optimal.
+1. Any d-sparse expert graph has a Omega(log_d N) lower bound for global information propagation.
+2. Ramanujan graphs hit O(log N) mixing time -- essentially optimal.
 3. For MoE layers constrained to d interactions per expert, this gives a near-optimal propagation schedule.
 
-This is a *topology design*, not a training acceleration. The contribution is structural: a provably efficient expert interaction backbone.
+This is a topology design, not a training acceleration. The contribution is structural: a provably efficient expert interaction backbone.
 
 Full paper (CN/EN) + verified spectral code:
 github.com/hiyenwong/paper_work
