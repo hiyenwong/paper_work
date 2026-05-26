@@ -138,5 +138,165 @@
       "seed": 42,
       "steps": 500
     }
+  },
+  {
+    "train_loss": 2.4610263109207153,
+    "best_ppl": 11.652079112456827,
+    "final_ppl": 11.73625195797849,
+    "name": "flat_N64_s123",
+    "params": 1160645,
+    "time": 106,
+    "config": {
+      "name": "flat_N64_s123",
+      "type": "flat",
+      "N": 64,
+      "dim": 64,
+      "top_k": 2,
+      "seed": 123,
+      "steps": 500
+    }
+  },
+  {
+    "train_loss": 2.547188639640808,
+    "best_ppl": 12.44547564487577,
+    "final_ppl": 12.639227810918177,
+    "name": "hier_ring_N64_G16_s123",
+    "params": 1178394,
+    "time": 1155,
+    "config": {
+      "name": "hier_ring_N64_G16_s123",
+      "type": "hier",
+      "N": 64,
+      "G": 16,
+      "dim": 64,
+      "kg": 1,
+      "ke": 2,
+      "comm_steps": 2,
+      "topo": "ring",
+      "seed": 123,
+      "steps": 500
+    }
+  },
+  {
+    "train_loss": 2.5459475994110106,
+    "best_ppl": 12.508298063424235,
+    "final_ppl": 12.716639576937459,
+    "name": "hier_expander_N64_G16_s123",
+    "params": 1178394,
+    "time": 1143,
+    "config": {
+      "name": "hier_expander_N64_G16_s123",
+      "type": "hier",
+      "N": 64,
+      "G": 16,
+      "dim": 64,
+      "kg": 1,
+      "ke": 2,
+      "comm_steps": 2,
+      "topo": "expander",
+      "seed": 123,
+      "steps": 500
+    }
+  },
+  {
+    "train_loss": 2.539853420257568,
+    "best_ppl": 12.39153819336878,
+    "final_ppl": 12.597102358325962,
+    "name": "hier_dense_N64_G16_s123",
+    "params": 1178394,
+    "time": 1125,
+    "config": {
+      "name": "hier_dense_N64_G16_s123",
+      "type": "hier",
+      "N": 64,
+      "G": 16,
+      "dim": 64,
+      "kg": 1,
+      "ke": 2,
+      "comm_steps": 2,
+      "topo": "dense",
+      "seed": 123,
+      "steps": 500
+    }
+  },
+  {
+    "train_loss": 2.460816264152527,
+    "best_ppl": 11.89806089432356,
+    "final_ppl": 11.610272077373454,
+    "name": "flat_N64_s456",
+    "params": 1160645,
+    "time": 108,
+    "config": {
+      "name": "flat_N64_s456",
+      "type": "flat",
+      "N": 64,
+      "dim": 64,
+      "top_k": 2,
+      "seed": 456,
+      "steps": 500
+    }
+  },
+  {
+    "train_loss": 2.5305100202560427,
+    "best_ppl": 12.724088669198348,
+    "final_ppl": 12.30587317154899,
+    "name": "hier_ring_N64_G16_s456",
+    "params": 1178394,
+    "time": 1148,
+    "config": {
+      "name": "hier_ring_N64_G16_s456",
+      "type": "hier",
+      "N": 64,
+      "G": 16,
+      "dim": 64,
+      "kg": 1,
+      "ke": 2,
+      "comm_steps": 2,
+      "topo": "ring",
+      "seed": 456,
+      "steps": 500
+    }
+  },
+  {
+    "train_loss": 2.5309461688995363,
+    "best_ppl": 12.660297755377128,
+    "final_ppl": 12.309817030571676,
+    "name": "hier_expander_N64_G16_s456",
+    "params": 1178394,
+    "time": 1175,
+    "config": {
+      "name": "hier_expander_N64_G16_s456",
+      "type": "hier",
+      "N": 64,
+      "G": 16,
+      "dim": 64,
+      "kg": 1,
+      "ke": 2,
+      "comm_steps": 2,
+      "topo": "expander",
+      "seed": 456,
+      "steps": 500
+    }
+  },
+  {
+    "train_loss": 2.5260114288330078,
+    "best_ppl": 12.647957708221053,
+    "final_ppl": 12.297785759824189,
+    "name": "hier_dense_N64_G16_s456",
+    "params": 1178394,
+    "time": 1127,
+    "config": {
+      "name": "hier_dense_N64_G16_s456",
+      "type": "hier",
+      "N": 64,
+      "G": 16,
+      "dim": 64,
+      "kg": 1,
+      "ke": 2,
+      "comm_steps": 2,
+      "topo": "dense",
+      "seed": 456,
+      "steps": 500
+    }
   }
 ]
