@@ -418,9 +418,22 @@ Crucially, the train-loss ordering is reversed: dense < expander < ring (dense f
 
 The expander occupies the middle ground (10/16 reach): more mixing than ring, less than dense. Its slight underperformance relative to ring on this task (character-level LM with strong local dependencies) is consistent with the locality hypothesis.
 
-**Comparison with Section 5.5 (graph signal propagation).** Section 5.5 found expander beats ring (-54%) in a propagation task where the TARGET is globally smooth (correlated across the entire graph). Phase 4 finds ring beats expander in a language modeling task where the TARGET has strong LOCAL structure (character n-gram dependencies). This is a consistent picture: expander topology is optimal when the task requires global information aggregation; ring topology is optimal (or sufficient) when local context dominates.
+**Multi-seed replication (seeds 42 and 123):**
 
-**Status:** Single-seed result (seed=42). Statistical replication across seeds 123, 456 is in progress at time of writing. The direction of the topology effect (ring < expander < dense in test PPL, i.e., less communication generalizes better) is consistent across all 10 intermediate checkpoints (steps 50–500).
+| Config | seed=42 | seed=123 | mean | std |
+|--------|---------|---------|------|-----|
+| flat | 11.80 | 11.65 | 11.73 | ±0.08 |
+| hier_ring | 12.67 | 12.45 | 12.56 | ±0.11 |
+| hier_expander | 12.74 | 12.51 | 12.63 | ±0.12 |
+| hier_dense | 12.86 | 12.39 | 12.63 | ±0.24 |
+
+The topology ordering **reverses across seeds**: seed=42 gives ring<expander<dense; seed=123 gives dense<ring<expander. The within-topology variance (~0.1 PPL for ring, ~0.24 for dense) is comparable to the cross-topology spread (~0.3 PPL), indicating that the ordering is not statistically significant at this scale. However, two consistent findings hold across both seeds: (1) **train-loss ordering is stable** — dense < expander < ring in both seeds, confirming that more cross-group mixing leads to better training-set fit; (2) **all hierarchical configs outperform the G=8 baseline** (12.4–12.9 vs 13.51), confirming that finer-grained group structure helps.
+
+**The primary conclusion is that the topology effect at N=64, G=16, 500 steps is present in training dynamics but not yet large enough to produce a consistent generalization ordering.** A third replication seed (456) is in progress. Scaling to N=256, G=32 (ring diameter=16, expander diameter≈5) is expected to produce a stable ordering.
+
+**Comparison with Section 5.5 (graph signal propagation).** Section 5.5 found expander beats ring (-54%) in a propagation task where the TARGET is globally smooth (correlated across the entire graph). Phase 4 finds topology ordering is task- and seed-dependent in a language modeling task with strong local structure. This is consistent: expander topology is unambiguously optimal when the task requires global information aggregation; for locally-structured tasks, the benefit of expander over ring is small and may be dominated by seed variance at small scale.
+
+**Status:** Two seeds complete (42, 123). Seed 456 in progress at time of writing.
 
 ---
 
